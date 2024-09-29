@@ -35,7 +35,6 @@ To compile and run the simple shell:
 1. **Compilation**:
     
     ```bash
-    Copy code
     gcc -o simpleShell simpleShell.c
     ```
     
@@ -43,7 +42,6 @@ To compile and run the simple shell:
     
     ```bash
     bash
-    Copy code
     ./simpleShell
     ```
     
@@ -104,8 +102,6 @@ Here is an example of how to interact with the shell and use its features:
 1. **Executing Commands**:
     
     ```
-    Shell
-    Copy code
     ls
     mkdir test
     ls -l
@@ -114,8 +110,6 @@ Here is an example of how to interact with the shell and use its features:
 2. **Using `export` and Variable Expansion**:
     
     ```
-    Shell
-    Copy code
     export x="-l -a -h"
     ls $x
     ```
@@ -123,16 +117,12 @@ Here is an example of how to interact with the shell and use its features:
 3. **Running a Command in the Background**:
     
     ```
-    Shell
-    Copy code
     firefox &
     ```
     
 4. **Changing Directories**:
     
     ```
-    Shell
-    Copy code
     cd ..
     cd /home/user/projects
     ```
@@ -140,8 +130,6 @@ Here is an example of how to interact with the shell and use its features:
 5. **Exiting the Shell**:
     
     ```
-    Shell
-    Copy code
     exit
     ```
     
